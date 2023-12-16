@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: aliceblue; */
+}
+        body {
+            font-family: 'poppins';
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            margin-left: 30px;
+            height: 100vh;
+            width: 100%;
+        }
+      
+
+        input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .js-list {
+            max-width: 100%;
+            margin: auto;
+            /* padding: 20px; */
+            border-radius: 8px;
+            
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: flex;
+            direction: row;
+        }
+
+        p, button, input {
+            box-sizing: border-box;
+        }
+   
+        #delete{
+            padding: 10px;
+            background-color:#D11A2A;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 0 18px;
+        }
+
+        .js-div{
+            display: flex;
+            direction: row;
+            
+        }
+        #duedate{
+            padding-right: 25px;
+        }
+        #name{
+            padding-right: 115px;
+        }
